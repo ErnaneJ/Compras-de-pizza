@@ -218,7 +218,7 @@ function updateCart() {
         c('aside').classList.remove('show');
         c('aside').style.left = '100vw';
     }
-    c('.cart--finalizar').addEventListener('click', () => {
-        alert("Compra realizada com sucessso!\nFeito com ❤ por Ernane Ferreira")
-    });
 }
+c('.cart--finalizar').addEventListener('click', () => {
+   alert("Compra realizada com sucessso!\nFeito com ❤ por Ernane Ferreira")
+});
